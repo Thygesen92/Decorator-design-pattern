@@ -1,16 +1,19 @@
-Hvornår kan man anvende decoration pattern:
+HvornÃ¥r kan man anvende decoration pattern:
 	Decoration pattern er oplagt at bruge hvis man skal lave et spil
-	hvor der skal være mulighed for at opgradere og sætte flere ting på sit basale
-	våben. Det kunne f.eks være at tilføje et sigtekorn på en riffel
+	hvor der skal vÃ¦re mulighed for at opgradere og sÃ¦tte flere ting pÃ¥ sit basale
+	vÃ¥ben. Det kunne f.eks vÃ¦re at tilfÃ¸je et sigtekorn pÃ¥ en riffel
+	
+	Det gode ved dette pattern er ogsÃ¥ at det ikke overskriver den gamel klasse nÃ¥r man instantiere en ny klasse pÃ¥ det gamle objekt.
+	Vi fjerner ikke det gamle objekt, nÃ¥r vi siger new. Vi tilfÃ¸jer det bare til det nuvÃ¦rende objekt.
 
-Hvornår er det uhensigtmæssigt at bruge decoration pattern:
-	Det kunne være i et firma hvor en ansat har en grundløn.
-	Så en sekretær har samme grundløn som en CEO, men det ville ikke give mening
-	at vise den individuelle ekstra løn som decoration. 
+HvornÃ¥r er det uhensigtmÃ¦ssigt at bruge decoration pattern:
+	Det kunne vÃ¦re i et firma hvor en ansat har en grundlÃ¸n.
+	SÃ¥ en sekretÃ¦r har samme grundlÃ¸n som en CEO, men det ville ikke give mening
+	at vise den individuelle ekstra lÃ¸n som decoration. 
 
-	Det ville give bedre mening at extende en class og plusse grundlønen med
-	en sekretær class individuelle løn.
+	Det ville give bedre mening at extende en class og plusse grundlÃ¸nen med
+	en sekretÃ¦r class individuelle lÃ¸n.
 
-	Så en grundløn i employee class kan være 20.000, plus løn i sekretær class
-	på 10.000. Så en sekretær tjener 30.000. Det samme gælder for CEO.
+	SÃ¥ en grundlÃ¸n i employee class kan vÃ¦re 20.000, plus lÃ¸n i sekretÃ¦r class
+	pÃ¥ 10.000. SÃ¥ en sekretÃ¦r tjener 30.000. Det samme gÃ¦lder for CEO.
 	 
